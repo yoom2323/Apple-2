@@ -1,0 +1,14 @@
+@import './utils/var'; //변수
+@import './utils/mixin'; //재활용가능한 소스를 작성
+
+@import './base/font';
+@import './base/reset';
+@import './base/common';
+
+@import './layout/header';
+@import './layout/nav';
+@import './layout/footer';
+
+@import './page/main';
+
+// 필요할대마다 추가하면됨

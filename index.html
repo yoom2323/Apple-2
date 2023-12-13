@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://db.onlinewebfonts.com/c/09f79b480eabca839b233bdde61980ac?family=SF+Pro+Icons+Regular" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</head>
+<body>
+    <div id="skipNav">
+        <a href="#content">본문내용바로가기</a>
+    </div>
+    <header class="header">
+        <nav class="gnb">
+            <ul class="gnb-list">
+                <li class="gnb-logo">
+                    <h1 class="logo">
+                        <a href="#" class="blind">apple</a>
+                        <a href="#" class="logo-svg"><svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z"></path></svg></a>
+                    </h1>
+                </li>
+                <li class="gnb-item">
+                    <a href="#" id="store">스토어</a>
+
+
+                        <div class="sub-menu" id="store-sub">
+                            <div class="wrap">
+                                <div class="col">
+                                    <strong>쇼핑하기</strong>
+                                    <ul class="submenu-list col1">
+                                        <li class="submenu-item"><a href="#">최신제품 쇼핑하기</a></li>
+                                        <li class="submenu-item"><a href="#">Mac</a></li>
+                                        <li class="submenu-item"><a href="#">iPad</a></li>
+                                        <li class="submenu-item"><a href="#">iPhone</a></li>
+                                        <li class="submenu-item"><a href="#">Apple Watch</a></li>
+                                        <li class="submenu-item"><a href="#">액세서리</a></li>
+                                    </ul>
+                                </div>
+                                <ul class="submenu-list col2">
+                                    <strong>빠른링크</strong>
+                                    <li class="submenu-item"><a href="#">매장 찾기</a></li>
+                                    <li class="submenu-item"><a href="#">주문 상태</a></li>
+                                    <li class="submenu-item"><a href="#">Apple Trade In</a></li>
+                                    <li class="submenu-item"><a href="#">할부 방식</a></li>
+                                </ul>
+                                <ul class="submenu-list col3">
+                                    <strong>특별 할인 쇼핑하기</strong>
+                                    <li class="submenu-item"><a href="#">인증리퍼비쉬제품</a></li>
+                                    <li class="submenu-item"><a href="#">교육</a></li>
+                                    <li class="submenu-item"><a href="#">비즈니스</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li class="gnb-item">
+                     <a href="#" id="mac">Mac</a> 
+                     <div class="sub-menu" id="mac-sub">
+                        <div class="wrap">
+                            <div class="col">
+                                <strong>Mac 살펴보기</strong>
+                                <ul class="submenu-list col1">
+                                    <li class="submenu-item"><a href="#">Mac 모두 살펴보기</a></li>
+                                    <li class="submenu-item"><a href="#">MacBook Air</a></li>
+                                    <li class="submenu-item"><a href="#">MacBook Pro</a></li>
+                                    <li class="submenu-item"><a href="#">iMac</a></li>
+                                    <li class="submenu-item"><a href="#">Mac mini</a></li>
+                                    <li class="submenu-item"><a href="#">Mac Studio</a></li>
+                                    <li class="submenu-item"><a href="#">Mac Pro</a></li>
+                                    <li class="submenu-item"><a href="#">디스플레이</a></li>
+                                </ul>
+                                <strong><a href="#">Mac 비교하기</a></strong>
+                                <strong><a href="#">Mac은 뭐든 척척</a></strong>
+
+                            </div>
+                            <ul class="submenu-list col2">
+                                <strong>Mac 쇼핑하기</strong>
+                                <li class="submenu-item">Mac 쇼핑하기</li>
+                                <li class="submenu-item"><a href="#">Mac 액세서리</a></li>
+                                <li class="submenu-item"><a href="#">Apple Trade In</a></li>
+                                <li class="submenu-item"><a href="#">할부 방식</a></li>
+                            </ul>
+                            <ul class="submenu-list col3">
+                                <strong>그 외 Mac 관련 항목</strong>
+                                <li class="submenu-item">Mac 지원</li>
+                                <li class="submenu-item"><a href="#">Mac을 위한 AppleCare+</a></li>
+                                <li class="submenu-item"><a href="#">macOS Sonoma</a></li>
+                                <li class="submenu-item"><a href="#">Apple이 만든 앱</a></li>
+                                <li class="submenu-item"><a href="#">연속성</a></li>
+                                <li class="submenu-item"><a href="#">iCloud+</a></li>
+                                <li class="submenu-item"><a href="#">Mac과 비즈니스</a></li>
+                                <li class="submenu-item"><a href="#">교육</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    </li>
+                <li class="gnb-item"> <a href="#">iPad</a>
+                    <div class="sub-menu" id="ipad-sub">
+                        <div class="wrap">
+                            <div class="col">
+                                <strong>iPad 살펴보기</strong>
+                                <ul class="submenu-list col1">
+                                    <li class="submenu-item"><a href="#">iPad 모두 살펴보기</a></li>
+                                    <li class="submenu-item"><a href="#">iPad Pro</a></li>
+                                    <li class="submenu-item"><a href="#">iPad Air</a></li>
+                                    <li class="submenu-item"><a href="#">iPad</a></li>
+                                    <li class="submenu-item"><a href="#">iPad mini</a></li>
+                                    <li class="submenu-item"><a href="#">Apple Pencil</a></li>
+                                    <li class="submenu-item"><a href="#">키보드</a></li>
+                                </ul>
+                                <strong><a href="#">iPad 비교하기</a></strong>
+                                <strong><a href="#">iPad를 선택하는 이유</a></strong>
+
+                            </div>
+                            <ul class="submenu-list col2">
+                                <strong>iPad 쇼핑하기</strong>
+                                <li class="submenu-item">iPad 쇼핑하기</li>
+                                <li class="submenu-item"><a href="#">iPad 액세서리</a></li>
+                                <li class="submenu-item"><a href="#">Apple Trade In</a></li>
+                                <li class="submenu-item"><a href="#">할부 방식</a></li>
+                            </ul>
+                            <ul class="submenu-list col3">
+                                <strong>그 외 iPad 관련 항목</strong>
+                                <li class="submenu-item">iPad 지원</li>
+                                <li class="submenu-item"><a href="#">iPad을 위한 AppleCare+</a></li>
+                                <li class="submenu-item"><a href="#">iPadOS 17</a></li>
+                                <li class="submenu-item"><a href="#">Apple이 만든 앱</a></li>
+                                <li class="submenu-item"><a href="#">iCloud+</a></li>
+                                <li class="submenu-item"><a href="#">교육</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </li>
+                <li class="gnb-item"> <a href="#">iPhone</a>
+                    <div class="sub-menu" id="iphone-sub">
+                        <div class="wrap">
+                            <div class="col">
+                                <strong>iPhone 살펴보기</strong>
+                                <ul class="submenu-list col1">
+                                    <li class="submenu-item"><a href="#">iPhone 모두 살펴보기</a></li>
+                                    <li class="submenu-item"><a href="#">iPhone 15 Pro</a></li>
+                                    <li class="submenu-item"><a href="#">iPhone 15</a></li>
+                                    <li class="submenu-item"><a href="#">iPhone 14</a></li>
+                                    <li class="submenu-item"><a href="#">iPhone 13</a></li>
+                                    <li class="submenu-item"><a href="#">iPhone SE</a></li>
+                                </ul>
+                                <strong><a href="#">iPhone 비교하기</a></strong>
+                                <strong><a href="#">안드로이드에서 갈아타기</a></strong>
+
+                            </div>
+                            <ul class="submenu-list col2">
+                                <strong>iPhone 쇼핑하기</strong>
+                                <li class="submenu-item">iPhone 쇼핑하기</li>
+                                <li class="submenu-item"><a href="#">iPhone 액세서리</a></li>
+                                <li class="submenu-item"><a href="#">Apple Trade In</a></li>
+                                <li class="submenu-item"><a href="#">할부 방식</a></li>
+                            </ul>
+                            <ul class="submenu-list col3">
+                                <strong>그 외 iPhone 관련 항목</strong>
+                                <li class="submenu-item">iPhone 지원</li>
+                                <li class="submenu-item"><a href="#">iPhone을 위한 AppleCare+</a></li>
+                                <li class="submenu-item"><a href="#">iOS 17</a></li>
+                                <li class="submenu-item"><a href="#">Apple이 만든 앱</a></li>
+                                <li class="submenu-item"><a href="#">iCloud+</a></li>
+                                <li class="submenu-item"><a href="#">Apple 지갑, Apple Pay</a></li>
+                                <li class="submenu-item"><a href="#">Siri</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </li>
+                <li class="gnb-item"> <a href="#">Watch</a> 
+                    <div class="sub-menu" id="watch-sub">
+                        <div class="wrap">
+                            <div class="col">
+                                <strong>Watch 살펴보기</strong>
+                                <ul class="submenu-list col1">
+                                    <li class="submenu-item"><a href="#">Apple Watch 모두 살펴보기</a></li>
+                                    <li class="submenu-item"><a href="#">Apple Watch Series 9</a></li>
+                                    <li class="submenu-item"><a href="#">Apple Watch Ultra 2</a></li>
+                                    <li class="submenu-item"><a href="#">Apple Watch SE</a></li>
+                                    <li class="submenu-item"><a href="#">Apple Watch Nike</a></li>
+                                    <li class="submenu-item"><a href="#">Apple Watch Hermès</a></li>
+                                </ul>
+                                <strong><a href="#">Watch 비교하기</a></strong>
+                                <strong><a href="#">Apple Watch를 선택하는 이유</a></strong>
+
+                            </div>
+                            <ul class="submenu-list col2">
+                                <strong>Apple Watch 쇼핑하기</strong>
+                                <li class="submenu-item">Apple Watch 쇼핑하기</li>
+                                <li class="submenu-item"><a href="#">Apple Watch Studio</a></li>
+                                <li class="submenu-item"><a href="#">Apple Watch 밴드</a></li>
+                                <li class="submenu-item"><a href="#">Apple Watch 액세서리</a></li>
+                                <li class="submenu-item"><a href="#">Apple Trade In</a></li>
+                                <li class="submenu-item"><a href="#">할부 방식</a></li>
+                            </ul>
+                            <ul class="submenu-list col3">
+                                <strong>그 외 Apple Watch 관련 항목</strong>
+                                <li class="submenu-item">Apple Watch 지원</li>
+                                <li class="submenu-item"><a href="#">AppleCare+</a></li>
+                                <li class="submenu-item"><a href="#">watchOS 10</a></li>
+                                <li class="submenu-item"><a href="#">Apple이 만든 앱</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </li>
+                <li class="gnb-item"> <a href="#">AirPods</a> 
+                    <div class="sub-menu" id="airpod-sub">
+                        <div class="wrap">
+                            <div class="col">
+                                <strong>AirPods 살펴보기</strong>
+                                <ul class="submenu-list col1">
+                                    <li class="submenu-item"><a href="#">AirPods 모두 살펴보기</a></li>
+                                    <li class="submenu-item"><a href="#">AirPods Pro 2세대</a></li>
+                                    <li class="submenu-item"><a href="#">AirPods 2세대</a></li>
+                                    <li class="submenu-item"><a href="#">AirPods 3세대</a></li>
+                                    <li class="submenu-item"><a href="#">AirPods Max</a></li>
+                                </ul>
+                                <strong><a href="#">AirPods 비교하기</a></strong>
+
+                            </div>
+                            <ul class="submenu-list col2">
+                                <strong>AirPods 쇼핑하기</strong>
+                                <li class="submenu-item">AirPods 쇼핑하기</li>
+                                <li class="submenu-item"><a href="#">AirPods 액세서리</a></li>
+                            </ul>
+                            <ul class="submenu-list col3">
+                                <strong>그 외 AirPods 관련 항목</strong>
+                                <li class="submenu-item">AirPods 지원</li>
+                                <li class="submenu-item"><a href="#">헤드폰을 위한 AppleCare+</a></li>
+                                <li class="submenu-item"><a href="#">Apple Music</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                
+                </li>
+                <li class="gnb-item"> <a href="#">TV 및 홈</a> 
+                    <div class="sub-menu" id="tv-sub">
+                        <div class="wrap">
+                            <div class="col">
+                                <strong>TV 및 홈 살펴보기</strong>
+                                <ul class="submenu-list col1">
+                                    <li class="submenu-item"><a href="#">TV 및 홈 살펴보기</a></li>
+                                    <li class="submenu-item"><a href="#">Apple TV 4K</a></li>
+                                </ul>
+                            </div>
+                            <ul class="submenu-list col2">
+                                <strong>TV 및 홈 쇼핑하기</strong>
+                                <li class="submenu-item">Apple TV 및 4K 쇼핑하기</li>
+                                <li class="submenu-item"><a href="#">Siri Remote 쇼핑하기</a></li>
+                                <li class="submenu-item"><a href="#">TV 및 홈 액세서리</a></li>
+                            </ul>
+                            <ul class="submenu-list col3">
+                                <strong>그 외 TV 및 홈 관련 항목</strong>
+                                <li class="submenu-item">Apple TV 지원</li>
+                                <li class="submenu-item"><a href="#">AppleCare+</a></li>
+                                <li class="submenu-item"><a href="#">Apple TV 앱</a></li>
+                                <li class="submenu-item"><a href="#">Apple TV+</a></li>
+                                <li class="submenu-item"><a href="#">홈 앱</a></li>
+                                <li class="submenu-item"><a href="#">Apple Music</a></li>
+                                <li class="submenu-item"><a href="#">Siri</a></li>
+                                <li class="submenu-item"><a href="#">AirPlay</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="gnb-item"> <a href="#">엔터테인먼트</a>
+                    <div class="sub-menu" id="ent-sub">
+                        <div class="wrap">
+                            <div class="col">
+                                <strong>엔터테인먼트 살펴보기</strong>
+                                <ul class="submenu-list col1">
+                                    <li class="submenu-item"><a href="#">엔터테인먼트 살펴보기</a></li>
+                                    <li class="submenu-item"><a href="#">Apple One</a></li>
+                                    <li class="submenu-item"><a href="#">Apple TV+</a></li>
+                                    <li class="submenu-item"><a href="#">Apple Music</a></li>
+                                    <li class="submenu-item"><a href="#">Apple Arcade</a></li>
+                                    <li class="submenu-item"><a href="#">Apple Podcasts</a></li>
+                                    <li class="submenu-item"><a href="#">Apple Books</a></li>
+                                    <li class="submenu-item"><a href="#">App Store</a></li>
+                                </ul>
+                            </div>
+                            <ul class="submenu-list col2">
+                                <strong>지원</strong>
+                                <li class="submenu-item">Apple TV+ 지원</li>
+                                <li class="submenu-item"><a href="#">Apple Music 지원</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </li>
+                <li class="gnb-item"> <a href="#">액세서리</a> 
+                    <div class="sub-menu" id="accessories-sub">
+                        <div class="wrap">
+                            <div class="col">
+                                <strong>액세서리 쇼핑하기</strong>
+                                <ul class="submenu-list col1">
+                                    <li class="submenu-item"><a href="#">액세서리 모두 쇼핑하기</a></li>
+                                    <li class="submenu-item"><a href="#">Mac</a></li>
+                                    <li class="submenu-item"><a href="#">iPad</a></li>
+                                    <li class="submenu-item"><a href="#">iPhone</a></li>
+                                    <li class="submenu-item"><a href="#">Apple Watch</a></li>
+                                    <li class="submenu-item"><a href="#">AirPods</a></li>
+                                    <li class="submenu-item"><a href="#">TV 및 홈</a></li>
+                                </ul>
+                            </div>
+                            <ul class="submenu-list col2">
+                                <strong>액세서리 살펴보기</strong>
+                                <li class="submenu-item">연말연시 선물 쇼핑하기</li>
+                                <li class="submenu-item">Apple 제작 정품</li>
+                                <li class="submenu-item">Beats by Dr.Dre</li>
+                                <li class="submenu-item"><a href="#">AirTag</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </li>
+                <li class="gnb-item"> <a href="#">고객지원</a> 
+                    <div class="sub-menu" id="customer-sub">
+                        <div class="wrap">
+                            <div class="col">
+                                <strong>지원 상황 살펴보기</strong>
+                                <ul class="submenu-list col1">
+                                    <li class="submenu-item"><a href="#">iPhone</a></li>
+                                    <li class="submenu-item"><a href="#">Mac</a></li>
+                                    <li class="submenu-item"><a href="#">iPad</a></li>
+                                    <li class="submenu-item"><a href="#">Watch</a></li>
+                                    <li class="submenu-item"><a href="#">AirPods</a></li>
+                                    <li class="submenu-item"><a href="#">Music</a></li>
+                                    <li class="submenu-item"><a href="#">TV</a></li>
+                                </ul>
+                                <strong><a href="#">지원 상황 살펴보기</a></strong>
+
+                            </div>
+                            <ul class="submenu-list col2">
+                                <strong>도움 받기</strong>
+                                <li class="submenu-item">커뮤니티</li>
+                                <li class="submenu-item"><a href="#">보장 상태 확인하기</a></li>
+                                <li class="submenu-item"><a href="#">수리</a></li>
+                                <li class="submenu-item"><a href="#">문의하기</a></li>
+                            </ul>
+                            <ul class="submenu-list col3">
+                                <strong>유용한 주제</strong>
+                                <li class="submenu-item">AppleCare+ 구입하기</li>
+                                <li class="submenu-item"><a href="#">Apple ID 및 암호</a></li>
+                                <li class="submenu-item"><a href="#">청구 및 구독</a></li>
+                                <li class="submenu-item"><a href="#">나의 찾기</a></li>
+                                <li class="submenu-item"><a href="#">손쉬운 사용</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </li>
+                <li class="gnb-search">
+                    <a href="#" class="blind">search</a>
+                    <a href="#" class="search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="44px" viewBox="0 0 15 44">
+                            <path d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z"></path>
+                            </svg>
+                    </a>
+                </li>
+                <li class="gnb-cart">
+                    <a href="#" class="blind">cart</a>
+                    <a href="#" class="cart">
+                        <svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"></path></svg>
+                    </a>
+                </li>
+                <li class="gnb-menu">
+                    <a href="#" class="menu-btn">
+                        <svg width="18" height="18" viewBox="0 0 18 18" class="bar"><polyline id="globalnav-menutrigger-bread-bottom" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 12, 16 12" class="globalnav-menutrigger-bread globalnav-menutrigger-bread-bottom"><animate id="globalnav-anim-menutrigger-bread-bottom-open" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 2 12, 16 12; 2 9, 16 9; 3.5 15, 15 3.5"></animate><animate id="globalnav-anim-menutrigger-bread-bottom-close" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 3.5 15, 15 3.5; 2 9, 16 9; 2 12, 16 12"></animate></polyline><polyline id="globalnav-menutrigger-bread-top" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 5, 16 5" class="globalnav-menutrigger-bread globalnav-menutrigger-bread-top"><animate id="globalnav-anim-menutrigger-bread-top-open" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 2 5, 16 5; 2 9, 16 9; 3.5 3.5, 15 15"></animate><animate id="globalnav-anim-menutrigger-bread-top-close" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 3.5 3.5, 15 15; 2 9, 16 9; 2 5, 16 5"></animate></polyline></svg>
+                        <svg width="15" height="15" class="cross">
+                            <line x1="0" y1="0" x2="15" y2="15"
+                            style="stroke: #000; stroke-width: 1;"></line>
+                            <line x1="0" y1="15" x2="15" y2="0"
+                            style="stroke: #000; stroke-width: 1;"></line>
+                        </svg>
+
+                    </a>
+                </li>
+                <li class="gnb-bg-wrap">
+                    <div class="menu-bg">
+                        <ul class="mobile-gnb-list">
+                            <li class="mobile-gnb-item">
+                                <a href="#">스토어</a>
+                                <svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg>
+                            </li>
+                            <li class="mobile-gnb-item">
+                                <a href="#">Mac</a>
+                                <svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg>
+                            </li>
+                            <li class="mobile-gnb-item">
+                                <a href="#">iPad</a>
+                                                                <svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg>
+                            </li>
+                            <li class="mobile-gnb-item">
+                                <a href="#">iPhone</a>
+                                                                <svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg>
+                            </li>
+                            <li class="mobile-gnb-item">
+                                <a href="#">Watch</a>
+                                                                <svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg>
+                            </li>
+                            <li class="mobile-gnb-item">
+                                <a href="#">AirPods</a>
+                                                                <svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg>
+                            </li>
+                            <li class="mobile-gnb-item">
+                                <a href="#">TV및 홈</a>
+                                                                <svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg>
+                            </li>
+                            <li class="mobile-gnb-item">
+                                <a href="#">엔터테인먼트</a>
+                                                                <svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg>
+                            </li>
+                            <li class="mobile-gnb-item">
+                                <a href="#">액세서리</a>
+                                                                <svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg>
+                            </li>
+                            <li class="mobile-gnb-item">
+                                <a href="#">지원</a>
+                                                                <svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="sticky-wrapper">
+        <div class="sticky">
+            <a href="#" class="title-hermes">
+                Apple Watch Hermès
+            </a>
+            <a href="#" class="buy-btn">
+                구입하기
+            </a>
+        </div>
+    </nav>
+    <main class="container">
+        <section class="sc-visual">
+            <div class="inner">
+                <h1 class="main-img">
+                    <span class="blind">애플워치 에르메스</span>
+                    <picture>
+                        <source media="(min-width: 1069px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/hero__dqyd5gd2bwa6_large.jpg">
+                        <source media="(max-width: 1068px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/hero__dqyd5gd2bwa6_medium.jpg">
+                        <source media="(max-width: 734px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/hero__dqyd5gd2bwa6_small.jpg">
+                        <img src="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/hero__dqyd5gd2bwa6_large.jpg" alt="애플워치">
+                    </picture>
+
+                </h1>
+            </div>
+        </section>
+        <div class="common-inner">
+
+
+
+            <section class="sc-hermes-info">
+                <div class="headline">
+                    <img src="https://www.apple.com/v/apple-watch-hermes/ab/images/logo/logo-watch-hermes__gecpfecg8jau_large.png" alt="애플워치 에르메스">
+                    <h2 class="title-text">
+                        활짝 피어난 장인 정신.
+                    </h2>
+                    <p class="intro-copy">
+                        Apple Watch Hermès의 파트너십은 타협하지 않는 디자인과 혁신이라는 공통된 철학을 기반으로 합니다. 화사한 컬러와 전용 시계 페이스부터 밴드 소재에 이르기까지, 모든 디테일이 시대를 초월하는 놀라운 아름다움을 선사하도록 제작했죠.
+                    </p>
+                </div>
+            </section>
+
+
+            <section class="sc-new-bands">
+                <h3 class="blind">애플워치 밴드와 페이스</h2>
+
+                <div class="group-header">
+                    <h4 class="headline bold">과감하고 산뜻하게. 질주하는 경쾌함으로.</h4>
+                    <p class="desc">경주마 기수의 승마복에서 볼 수 있는 강렬한 색상 대비에서 영감을 받아 새롭게 탄생한 Casaque 밴드. 세련된 멋과 스포티함이 이루는 절묘한 조화가 돋보입니다. 우븐 나일론 소재의 싱글 투어와 가죽 소재의 더블 투어로 선보이며, 어느 소재를 택하든 매력적인 컬러 블록 디자인을 만나볼 수 있죠.</p>
+                </div>
+                <div class="gallery-casaque">
+                    <!-- <img src="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/design_gallery_02__b7udzp5j258i_large.jpg" alt=""> -->
+                    <!-- https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/design_gallery_01__c05cv441i92e_large.jpg -->
+                    <div class="img-container">
+                        <ul class="colornav">
+                            <li><button class="btn1">
+                                <!--https://www.apple.com/v/apple-watch-hermes/ab/images/swatches/swatch_rouge_bleu_casaque__do95giq9i0sy_large.png-->
+                            </button></li>
+                            <li><button class="btn2">
+                                <!--https://www.apple.com/v/apple-watch-hermes/ab/images/swatches/swatch_rose_noir_casaque__d9sdilj5zc02_large.png -->
+                            </button></li>
+                        </ul>
+                    </div>
+
+                    <div class="captions-container">
+                        <p class="caption1 current">
+                            45mm 실버 스테인리스 스틸 케이스, 그리고 루즈 H/블루&nbsp;사피흐 Casaque&nbsp;싱글&nbsp;투어
+                        </p>
+                        <p class="caption2">
+                            41mm 실버 스테인리스 스틸 케이스, 그리고 로즈&nbsp;아잘레/누아 Casaque&nbsp;싱글&nbsp;투어
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="group-header lucky-horse">
+                    <h4 class="headline bold">손목 위에 깃든 행운의 말.</h3>
+                    <p class="desc">고급 승마구를 만들던 Hermès의 전통을 살린 ‘럭키&nbsp;호스’ 시계 페이스. 손목을 들어 올리면, 말이 살아 움직이는 듯 재미있는 애니메이션이 나타납니다.</p>
+                </div>
+                <div class="gallery-lucky-horse">
+                    <div class="img-container">
+                        
+                        <video  muted="" autoplay="" playsinline="" preload="none" data-inline-media="" src="https://www.apple.com/105/media/us/apple-watch-hermes/2022/81ebc5c4-1e68-4a8a-ad30-fb8f46ca78e8/anim/horse-face/large.mp4"> </video>
+                        <picture>
+                            <source media="(min-width: 1069px)" srcset="https://www.apple.com/v/apple-watch-hermes/ae/images/configure/cto/cto-case__bk2ymw1ejdpy_large.png">
+                            <source media="(max-width: 1068px)" srcset="https://www.apple.com/v/apple-watch-hermes/ae/images/configure/cto/cto-case__bk2ymw1ejdpy_medium.png">
+                            <source media="https://www.apple.com/v/apple-watch-hermes/ae/images/configure/cto/cto-case__bk2ymw1ejdpy_small.png">
+                            <img src="https://www.apple.com/v/apple-watch-hermes/ae/images/configure/cto/cto-case__bk2ymw1ejdpy_large.png" alt="애플워치">
+                        </picture>
+                        <img src="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/artist_watch_hw__fa0x1434j8y2_large.jpg" alt="" class="lucky-horse-main">
+                        <!-- <div class="bg"> -->
+                        <!-- </div> -->
+                    </div>
+                    <div class="captions-container">
+                        <p class="caption">
+                        41mm 또는 45mm 스테인리스 스틸 케이스, 그리고 카푸신 Hermès&nbsp;럭키&nbsp;호스 시계&nbsp;페이스
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+            <section class="sc-tours-gallery">
+                <div class="group-header">
+                    <h2 class="headline bold">시그니처 스타일. 새롭고 아름다운 컬러.</h2>
+                    <p class="desc">봄을 맞아 화사한 새 컬러로 다시 태어난 가죽 밴드와 우븐 나일론 밴드. 다양한 스타일과 컬러웨이가 조합된 더블 투어 혹은 싱글 투어로 만날 수 있습니다.</p>
+                </div>
+                <div class="gallery-blocks">
+
+                    <div class="block-content block-content-block1">
+                        <div class="figure-container">
+                            <div class="figure-container-inside">
+                                <div class="image-block1">
+                                    <picture>
+                                        <source media="(min-width: 1069px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-classic-single__4bmt0l4lro2e_large.jpg">
+                                        <source media="(max-width: 1068px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-classic-single__4bmt0l4lro2e_medium.jpg">
+                                        <source media="(max-width: 734px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-classic-single__4bmt0l4lro2e_small.jpg">
+                                        <img src="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-classic-single__4bmt0l4lro2e_large.jpg" alt="">
+                                    </picture>
+                                </div>
+                                    <p class="copy-caption">41mm 또는 45mm 클래식 싱글&nbsp;투어</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block-content block-content-block2">
+                        <div class="figure-container">
+                            <div class="figure-container-inside">
+                                <div class="image-block2">
+                                    <picture>
+                                        <source media="(min-width: 1069px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-single-tour__fm04meyiaqy6_large.jpg">
+                                        <source media="(max-width: 1068px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-single-tour__fm04meyiaqy6_medium.jpg">
+                                        <source media="(max-width: 734px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-single-tour__fm04meyiaqy6_small.jpg">
+                                        <img src="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-single-tour__fm04meyiaqy6_large.jpg" alt="">
+                                    </picture>
+                                </div>
+
+                                    <p class="copy-caption">45mm 싱글&nbsp;투어 디플로이먼트&nbsp;버클</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block-content block-content-block3">
+                        <div class="figure-container">
+                            <div class="figure-container-inside">
+                                <div class="image-block3">
+                                    <picture>
+                                        <source media="(min-width: 1069px)" srcset="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/beauty-attelage-double__f06ghyczaaie_large.jpg">
+                                        <source media="(max-width: 1068px)" srcset="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/beauty-attelage-double__f06ghyczaaie_medium.jpg">
+                                        <source media="(max-width: 734px)" srcset="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/beauty-attelage-double__f06ghyczaaie_small.jpg">
+                                        <img src="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/beauty-attelage-double__f06ghyczaaie_large.jpg" alt="">
+                                    </picture>
+                                </div>
+
+                                    <p class="copy-caption">41mm 아뜰라주 더블&nbsp;투어</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block-content block-content-block4">
+                        <div class="figure-container">
+                            <div class="figure-container-inside">
+                                <div class="image-block4">
+                                    <picture>
+                                        <source media="(min-width: 1069px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-casaque-single__f4kwzqjs25ym_large.jpg">
+                                        <source media="(max-width: 1068px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-casaque-single__f4kwzqjs25ym_medium.jpg">
+                                        <source media="(max-width: 734px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-casaque-single__f4kwzqjs25ym_small.jpg">
+                                        <img src="https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-casaque-single__f4kwzqjs25ym_large.jpg" alt="">
+                                    </picture>
+                                </div>
+
+                                    <p class="copy-caption">41mm Casaque 싱글&nbsp;투어</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="sc-sport-band">
+                <div class="group-header">
+                    <h2 class="headline bold">독점 Hermès 스포츠 밴드.</h2>
+                    <p class="desc">Hermès의 시그니처 컬러를 담은 오렌지색&nbsp;스포츠&nbsp;밴드는 가볍고, 유연하고, 방수 기능까지 갖춘 최고의 운동&nbsp;파트너입니다. 모든 실버 스테인리스 스틸 케이스 Apple&nbsp;Watch&nbsp;Hermès 모델에 추가 밴드로 기본 제공되죠. 그리고 스페이스 블랙 스테인리스 스틸 케이스 모델에는 시계에 어울리는 블랙&nbsp;Hermès 스포츠&nbsp;밴드가 제공됩니다.</p>
+                </div>
+                <div class="img-container">
+                    <picture>
+                        <source media="(min-width: 1069px)" srcset="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/exclusive__ciuq7evr8yoi_large.jpg">
+                        <source media="(max-width: 1068px)" srcset="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/exclusive__ciuq7evr8yoi_medium.jpg">
+                        <source media="(max-width: 734px)" srcset="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/exclusive__ciuq7evr8yoi_small.jpg">
+                        <img src="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/exclusive__ciuq7evr8yoi_large.jpg" alt="애플워치 스포츠밴드">
+                    </picture>
+                </div>
+            </section>
+            <section class="sc-lineup">
+                <div class="group-header">
+                    <h2 class="headline bold">전체 밴드 라인업 쇼핑하기.</h2>
+                    <p class="desc">Hermès&nbsp;밴드를 추가로 구입해 당신의 Apple&nbsp;Watch에 팔색조의 매력을 더해보세요. 다양한 디자인, 색상, 소재로 마련된 밴드. 교체도 간편해 빠른 스타일 변신이 가능합니다.</p>
+                    <a href="#" class="desc-link">Hermès 밴드 쇼핑하기</a>
+                </div>
+                <div class="img-container">
+                    <img src="" alt="">
+                    <picture>
+                        <source media="(min-width: 1069px)" srcset="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/lineup__fqcooic66tei_large.jpg">
+                        <source media="(max-width: 1068px)" srcset="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/lineup__fqcooic66tei_medium.jpg">
+                        <source media="(max-width: 734px)" srcset="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/lineup__fqcooic66tei_small.jpg">
+                        <img src="https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/lineup__fqcooic66tei_large.jpg" alt="애플워치 에르메스 밴드">
+                    </picture>
+                </div>
+            </section>
+        </div>
+
+        <section class="sc-custom">
+            <div class="text-box">
+                <h2>Apple Watch Studio</h2>
+                <strong>자기 시계, 자기 스타일대로.</strong>
+                <p>클래식 Hermès 케이스와 다양한 Hermès 밴드를 조합해<br>자신만의 개성을 연출해보세요.</p>
+                <a href="#" class="custom-btn">
+                    자신만의 스타일 만들기
+                </a>
+            </div>
+            <div class="img-container">
+                <picture>
+                    <source media="(min-width: 1069px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/configure/cto/cto-case__giviv3t7qq2q_large.png">
+                    <source media="(max-width: 1068px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/configure/cto/cto-case__giviv3t7qq2q_medium.png">
+                    <source media="(max-width: 734px)" srcset="https://www.apple.com/kr/apple-watch-hermes/ab/images/configure/cto/cto-case__giviv3t7qq2q_small.png">
+                    <img src="https://www.apple.com/kr/apple-watch-hermes/ab/images/configure/cto/cto-case__giviv3t7qq2q_large.png" alt="애플워치 밴드 스타일">
+                </picture>
+            </div>
+        </section>
+
+         <div class="common-inner">
+            <section class="sc-store">
+                <h2 class="headline">
+                    Apple Store 및 지정<br>
+    Hermès 리테일 매장에서 구입 가능.
+                </h2>
+                <div class="img-container">
+                    <picture>
+                        <source media="(min-width: 1069px)" srcset="https://www.apple.com/v/apple-watch-hermes/ab/images/design/packaging/hermes-packaging__bu5j3rlss7au_large.jpg">
+                        <source media="(max-width: 1068px)" srcset="https://www.apple.com/v/apple-watch-hermes/ab/images/design/packaging/hermes-packaging__bu5j3rlss7au_medium.jpg">
+                        <source media="(max-width: 734px)" srcset="https://www.apple.com/v/apple-watch-hermes/ab/images/design/packaging/hermes-packaging__bu5j3rlss7au_small.jpg">
+                        <img src="https://www.apple.com/v/apple-watch-hermes/ab/images/design/packaging/hermes-packaging__bu5j3rlss7au_large.jpg" alt="애플워치 에르메스">
+                    </picture>
+
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="blind">애플푸터</h2>
+
+            <div class="gf-buystrip">
+                <div class="gf-buystrip-info">
+                    <div class="buystrip-info-col shipping">
+                        <a href="#" class="gf-block">
+                            <div class="buystrip-icon shipping">
+                                <!-- https://www.apple.com/ac/globalfooter/8/ko_KR/assets/ac-buystrip/shipping/icon_large.svg -->
+                            </div>
+                            <h3 class="buystrip-info-title">
+                                업무일 기준 무료 익일배송
+                            </h3>
+                            <p class="buystrip-info-copy">
+                                오후 3시 이전에 주문된<br>재고 보유 제품에 한합니다.
+                            </p>
+                            <span class="more">더 알아보기</span>
+                        </a>
+                    </div>
+
+                    <div class="buystrip-info-col financing">
+                        <a href="#" class="gf-block">
+                            <div class="buystrip-icon financing">
+                                <!-- 	https://www.apple.com/ac/globalfooter/8/ko_KR/assets/ac-buystrip/financing/krw/icon_large.svg -->
+                            </div>
+                            <h3 class="buystrip-info-title">
+                                할부 방식
+                            </h3>
+                            <p class="buystrip-info-copy">
+                                무이자 할부를 통해 Apple 제품을 <br>부담&nbsp;없이 구매하실 수 있습니다.
+                            </p>
+                            <span class="more">더 알아보기</span>
+                        </a>
+                    </div>
+                    
+                    <div class="buystrip-info-col help">
+                        <a href="#" class="gf-block">
+                            <div class="buystrip-icon help">
+                                <!-- 	https://www.apple.com/ac/globalfooter/8/ko_KR/assets/ac-buystrip/help/icon_large.svg -->
+                            </div>
+                            <h3 class="buystrip-info-title">
+                                도움이 필요하다면
+                            </h3>
+                            <p class="buystrip-info-copy">
+                                질문이 있으신가요? 전문가와 전화로 <br> 상담하거나 온라인으로 채팅하세요.
+                                <br>080-330-8877로 전화 주세요.
+                            </p>
+                            <span class="more">문의하기</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gf-info-text">
+                <ul>
+					<li>케이스 및 밴드 조합은 각 컬렉션(Apple&nbsp;Watch, Apple&nbsp;Watch&nbsp;Hermès) 내에서만 가능합니다.</li>
+					<li>Apple&nbsp;Watch Series&nbsp;8은 iOS&nbsp;16 이후 버전이 설치된 iPhone&nbsp;8 이후 모델이 필요합니다.</li>
+					<li>기능은 변경될 수 있습니다. 일부 기능, 응용 프로그램 및 서비스를 이용할 수 없는 국가나 언어도 있습니다. <a href="#">전체 목록 보기</a>.</li>
+				</ul>
+            </div>
+            <nav class="gf-nav">
+            <div class="gf-category">
+                <a href="#" class="apple-home">
+                    <span class="home-icon" aria-hidden="true"></span>
+                </a>
+                <ol class="gf-category-list">
+                    <li class="gf-category-item"><a href="#" class="watch">Watch</a></li>
+                    <li class="gf-category-item"><a href="#" class="hermes">Apple Watch Hermès</a></li>
+                </ol>
+            </div>
+
+            <div class="gf-directory" aria-label="애플 디렉토리" >
+                <div class="gf-directory-col">
+                    <div class="gf-directory-col-sec">
+                       
+                            <strong class="gf-directory-title">쇼핑 및 알아보기</strong>
+                        
+                        <ul class="gf-directory-list">
+                            <li class="gf-directory-item"><a href="#">스토어</a></li>
+                            <li class="gf-directory-item"><a href="#">Mac</a></li>
+                            <li class="gf-directory-item"><a href="#">iPad</a></li>
+                            <li class="gf-directory-item"><a href="#">iPhone</a></li>
+                            <li class="gf-directory-item"><a href="#">Watch</a></li>
+                            <li class="gf-directory-item"><a href="#">AirPods</a></li>
+                            <li class="gf-directory-item"><a href="#">TV 및 홈</a></li>
+                            <li class="gf-directory-item"><a href="#">AirTag</a></li>
+                            <li class="gf-directory-item"><a href="#">액세서리</a></li>
+                        </ul>
+                    </div>
+                    <div class="gf-directory-col-sec">
+                       
+                            <strong class="gf-directory-title">Apple 지갑</strong>
+
+                        
+                        <ul class="gf-directory-list">
+                            <li class="gf-directory-item"><a href="#">지갑</a></li>
+                            <li class="gf-directory-item"><a href="#">Apple&nbsp;Pay</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="gf-directory-col">
+                    <div class="gf-directory-col-sec">
+                       
+                            <strong class="gf-directory-title">계정</strong>
+
+                        
+                        <ul class="gf-directory-list">
+                            <li class="gf-directory-item"><a href="https://appleid.apple.com/kr/">Apple&nbsp;ID 관리</a></li>
+                            <li class="gf-directory-item"><a href="#">Apple Store 계정</a></li>
+                            <li class="gf-directory-item"><a href="https://www.icloud.com">iCloud.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="gf-directory-col-sec">
+                       
+                            <strong class="gf-directory-title">엔터테인먼트</strong>
+
+                        
+                        <ul class="gf-directory-list">
+                            <li class="gf-directory-item"><a href="#">Apple&nbsp;One</a></li>
+                            <li class="gf-directory-item"><a href="#">Apple&nbsp;TV+</a></li>
+                            <li class="gf-directory-item"><a href="#">Apple&nbsp;Music</a></li>
+                            <li class="gf-directory-item"><a href="#">Apple&nbsp;Arcade</a></li>
+                            <li class="gf-directory-item"><a href="#">Apple Podcasts</a></li>
+                            <li class="gf-directory-item"><a href="#">Apple&nbsp;Books</a></li>
+                            <li class="gf-directory-item"><a href="#">App&nbsp;Store</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="gf-directory-col">
+                    <div class="gf-directory-col-sec">
+                       
+                            <strong class="gf-directory-title">Apple Store</strong>
+                        
+                        <ul class="gf-directory-list">
+                            <li class="gf-directory-item"><a href="#">매장 찾기</a></li>
+                            <li class="gf-directory-item"><a href="#">Genius Bar</a></li>
+                            <li class="gf-directory-item"><a href="#">Today at Apple</a></li>
+                            <li class="gf-directory-item"><a href="#">Apple 캠프</a></li>
+                            <li class="gf-directory-item"><a href="#">Apple Store 앱</a></li>
+                            <li class="gf-directory-item"><a href="#">인증 리퍼비쉬 제품</a></li>
+                            <li class="gf-directory-item"><a href="#">Apple&nbsp;Trade&nbsp;In</a></li>
+                            <li class="gf-directory-item"><a href="#">할부 방식</a></li>
+                            <li class="gf-directory-item"><a href="#">주문 상태</a></li>
+                            <li class="gf-directory-item"><a href="#">쇼핑 도움말</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="gf-directory-col">
+                    <div class="gf-directory-col-sec">
+                       
+                            <strong class="gf-directory-title">비즈니스</strong>
+
+                        
+                        <ul class="gf-directory-list">
+                            <li class="gf-directory-item"><a href="#">Apple과 비즈니스</a></li>
+                            <li class="gf-directory-item"><a href="#">비즈니스를 위한 제품 쇼핑하기</a></li>
+                        </ul>
+                    </div>
+                    <div class="gf-directory-col-sec">
+                       
+                            <strong class="gf-directory-title">교육</strong>
+                        
+                        <ul class="gf-directory-list">
+                            <li class="gf-directory-item"><a href="#">Apple과 교육</a></li>
+                            <li class="gf-directory-item"><a href="#">초중고용 제품 쇼핑하기</a></li>
+                            <li class="gf-directory-item"><a href="#">대학 생활을 위한 제품 쇼핑하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="gf-directory-col">
+                    <div class="gf-directory-col-sec">
+                       
+                            <strong class="gf-directory-title">Apple의 가치관</strong>
+                        
+                        <ul class="gf-directory-list">
+                            <li class="gf-directory-item"><a href="#">손쉬운 사용</a></li>
+                            <li class="gf-directory-item"><a href="#">교육</a></li>
+                            <li class="gf-directory-item"><a href="#">환경</a></li>
+                            <li class="gf-directory-item"><a href="#">개인정보 보호</a></li>
+                            <li class="gf-directory-item"><a href="#">협력업체에 대한 책임</a></li>
+                        </ul>
+                    </div>
+                    <div class="gf-directory-col-sec">
+                       
+                            <strong class="gf-directory-title">Apple 정보</strong>
+
+                        
+                        <ul class="gf-directory-list">
+                            <li class="gf-directory-item"><a href="#">Newsroom</a></li>
+                            <li class="gf-directory-item"><a href="#">Apple 리더십</a></li>
+                            <li class="gf-directory-item"><a href="#">채용 안내</a></li>
+                            <li class="gf-directory-item"><a href="#">윤리 및 규정 준수</a></li>
+                            <li class="gf-directory-item"><a href="#">이벤트</a></li>
+                            <li class="gf-directory-item"><a href="#">일자리 창출</a></li>
+                            <li class="gf-directory-item"><a href="#">Apple 연락처</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </nav>
+            <section class="gf-bottom">
+                <p class="top-text">
+                        다양한 쇼핑 방법: <a href="#">Apple Store를 방문</a>하거나, <a href="#">리셀러</a>를 찾아보거나, 080-330-8877번으로 전화하세요.
+                </p>
+                <div class="bottom-text">
+                    <small>Copyright © 2023 Apple Inc. 모든 권리 보유.</small>
+                    <ul class="gf-footer-legal-links">
+                        <li class="gf-footer-legal-links-item">
+                            <a class="gf-footer-legal-link" href="#">개인정보 처리방침</a>
+                        </li>
+                        <li class="gf-footer-legal-links-item">
+                            <a class="gf-footer-legal-link" href="#">웹 사이트 이용 약관</a>
+                        </li>
+                        <li class="gf-footer-legal-links-item">
+                            <a class="gf-footer-legal-link" href="#">판매 및 환불</a>
+                        </li>
+                        <li class="gf-footer-legal-links-item">
+                            <a class="gf-footer-legal-link" href="#">법적 고지</a>
+                        </li>
+                        <li class="gf-footer-legal-links-item">
+                            <a class="gf-footer-legal-link" href="#">사이트 맵</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="country">대한민국</a>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'SD Gothic Neo';
+	font-weight: normal;
+	font-display: swap;
+	src: local('SD Gothic Neo'), url('../font/AppleSDGothicNeoEB.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SD Gothic Neo EB';
+	font-weight: normal;
+	font-display: swap;
+	src: local('SD Gothic Neo EB'), url('../font/AppleSDGothicNeoEB.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SF Pro';
+	font-weight: normal;
+	font-display: swap;
+	src: local('SF Pro'), url('../font/SF-Pro.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SF Pro Text';
+	font-weight: normal;
+	font-display: swap;
+	src: local('SF Pro Text'), url('../font/SF-Pro-Text-Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SF Pro Display';
+	font-weight: normal;
+	font-display: swap;
+	src: local('SF Pro Display'), url('../font/SF-Pro-Display-Regular.woff2') format('woff2');
+}
+
+@font-face{
+		font-family: "SF Pro Icons Regular";
+		src: url("https://db.onlinewebfonts.com/t/09f79b480eabca839b233bdde61980ac.eot");
+		src: url("https://db.onlinewebfonts.com/t/09f79b480eabca839b233bdde61980ac.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/09f79b480eabca839b233bdde61980ac.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/09f79b480eabca839b233bdde61980ac.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/09f79b480eabca839b233bdde61980ac.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/09f79b480eabca839b233bdde61980ac.svg#SF Pro Icons Regular")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}

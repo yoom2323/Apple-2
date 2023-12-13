@@ -1,0 +1,43 @@
+
+
+
+@mixin position-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@mixin ellipse($line:1){
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @if($line > 1){
+        display: -webkit-box;
+        -webkit-line-clamp: $line;
+        -webkit-box-orient: vertical;
+    }
+    @else{
+        white-space: nowrap;
+    }
+  
+}
+
+// $pc:;
+$tablet:1068px;
+$mobile:735px;
+
+// @mixin pc(){
+    
+// }
+@mixin tablet(){
+    @media (max-width:$tablet) {
+        @content;
+    }
+}
+@mixin mobile(){
+    @media (max-width:$mobile) {
+        @content;
+    }
+}

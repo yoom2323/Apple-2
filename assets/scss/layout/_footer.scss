@@ -1,0 +1,187 @@
+
+/* 푸터 */
+footer {
+    background: #f5f5f7;
+}
+.footer-content {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 22px;
+}
+.footer-content .gf-buystrip{
+
+}
+.footer-content .gf-buystrip-info{
+    display: flex;
+    padding: 0 0 56px;
+}
+.footer-content .buystrip-info-col{
+    flex: 1;
+    margin: 0 55px;
+    padding: 55px 0 0;
+    text-align: center;
+}
+.footer-content .shipping{}
+.footer-content .financing{}
+.footer-content .help{}
+.footer-content .buystrip-info-col .gf-block{
+    color: #1d1d1f;
+}
+.footer-content .buystrip-info-col .gf-block .buystrip-icon{
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+}
+.footer-content .buystrip-info-col .gf-block .shipping{
+    background: url(https://www.apple.com/ac/globalfooter/8/ko_KR/assets/ac-buystrip/shipping/icon_large.svg) no-repeat center center / contain;
+}
+.footer-content .buystrip-info-col .gf-block .financing{
+    background: url(https://www.apple.com/ac/globalfooter/8/ko_KR/assets/ac-buystrip/financing/krw/icon_large.svg) no-repeat center center / contain;
+
+}
+.footer-content .buystrip-info-col .gf-block .help{
+    background: url(https://www.apple.com/ac/globalfooter/8/ko_KR/assets/ac-buystrip/help/icon_large.svg) no-repeat center center / contain;
+}
+.footer-content .gf-block .buystrip-info-title{
+    font-size: 18px;
+    margin: 10px 0 0;
+    font-family: var(--font-kr-b);
+}
+.footer-content .gf-block .buystrip-info-copy{
+    font-size: 13px;
+    margin: 5.6px 0 0;
+    line-height: 20px;
+}
+.footer-content .gf-block .more {
+    margin: 15px 0;
+    display: block;
+    color: #0066cc;
+}
+.footer-content .gf-block:hover .more {
+    text-decoration: underline;
+}
+.footer-content .gf-block .more::after {
+    content: '>';
+    display: inline-block;
+    margin-left: 5px;
+}
+.footer-content .gf-info-text {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 17px 0 11px;
+}
+.footer-content .gf-info-text ul{}
+.footer-content .gf-info-text ul li{
+    padding: 0 0 9.6px;
+    color: #6e6e73;
+    font-size: 11px;
+}
+.footer-content .gf-info-text ul li a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.gf-category {
+    padding: 17px 0;
+    display: flex;
+    font-size: 12px;
+}
+.gf-category .apple-home{}
+.gf-category .apple-home span{
+    font-size: 18px;
+}
+.gf-category .gf-category-list{
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+}
+.gf-category .gf-category-item{
+    display: flex;
+    align-items: center;
+    margin: 0 7px 0 0;
+    padding: 3px 4px 3px 0;
+}
+.gf-category .gf-category-item::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 18px;
+    margin: -1px 11px 0 0;
+    background: url(https://www.apple.com/ac/globalfooter/8/ko_KR/assets/ac-footer/breadcrumbs/separator/icon_large.svg) no-repeat 0 0 / cover;
+}
+
+.gf-directory {
+    display: flex;
+    color: #1d1d1f;
+    font-size: 12px;
+}
+.gf-directory .ac-gf-directory-column{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.gf-directory .ac-gf-directory-column-section{}
+.gf-directory .ac-gf-directory-column-section-title{
+    margin: 0 20px 15px 0;
+}
+.gf-directory .ac-gf-directory-column-section-title-text{
+    font-weight: bold;
+}
+.gf-directory .ac-gf-directory-column-section ul {
+    margin-right: 20px;
+}
+.gf-directory .ac-gf-directory-column-section ul li{
+    margin: 0 0 15px;
+}
+.gf-directory .ac-gf-directory-column-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.gf-bottom {
+    padding: 34px 0 21px;
+    color: #6e6e73;
+    font-size: 11px;
+}
+.gf-bottom .top-text{
+    margin: 0 0 7px;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #ccc;
+}
+.gf-bottom .top-text a{
+    color: #0066cc;
+    text-decoration: underline;
+}
+.gf-bottom .bottom-text {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.gf-bottom .bottom-text small{
+    margin: 5px 30px 0 0;
+
+}
+.gf-bottom .bottom-text ul{
+    display: flex;
+    transform: translateX(-40%);
+    margin: 5px 0 0 0;
+}
+.gf-bottom .bottom-text li{
+    padding: 0 10px;
+
+}
+.gf-bottom .bottom-text li + * {
+    border-left: 1px solid #6e6e73;
+}
+.gf-bottom .bottom-text li a{
+    font-weight: bold;   
+}
+.gf-bottom .bottom-text li a:hover {
+    text-decoration: underline;
+}
+.gf-bottom .bottom-text .country{
+    margin: 5px 0 0;
+}
+.gf-bottom .bottom-text .country:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}

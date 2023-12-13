@@ -1,0 +1,43 @@
+
+.sticky-wrapper {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.7);
+
+    -webkit-backdrop-filter: blur(20px);
+  
+    backdrop-filter: blur(20px);
+    z-index: 99;
+
+}
+.sticky {
+    height: 52px;
+    margin: 0 auto;
+
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 22px;
+
+    z-index: 999;
+}
+.sticky .title-hermes{
+    font-size: 21px;
+    font-family: var(--sf-pro);
+    font-weight: bold;
+}
+.sticky .buy-btn{
+    width: 59.5px;
+    height: 23.6px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0071e3;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 11px;
+}

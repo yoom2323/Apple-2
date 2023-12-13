@@ -1,0 +1,80 @@
+
+/* 헤더 */
+// body {
+//     height: auto;
+// }
+
+// 무한상속
+
+
+
+header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 999;
+    background: #fff;
+}
+
+.gnb{
+    height: 44px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 22px;
+    .gnb-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+        font-size: 11px;
+        color: rgba(0, 0, 0, .8);
+    }
+    .category{
+        font-size: 12px;
+        color: #86868b;
+        font-family: var(--font-kr);
+        margin-bottom: 30px;
+    }
+    .store-sub{
+        width: 100%;
+        padding: 50px 246.7px 70px;
+        position: absolute;
+        top: 44px;
+        left: 0;
+        background: #fff;
+        display: none;
+        &.on {
+            display: flex;
+        }
+    }
+    .col1{
+        width: 310px;
+    }
+    .col2 {
+        width: 150px;
+        li {
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+        .category {
+            margin-bottom: 30px;
+        }
+    }
+    .col3 {
+        width: 150px;
+        li{
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+        .category {
+            margin-bottom: 30px;
+        }
+    }
+    .store-sub-item{
+        font-size: 23px;
+        font-family: var(--font-kr-b);
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+}

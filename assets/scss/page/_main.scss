@@ -1,0 +1,417 @@
+
+body {
+    height:initial;
+}
+
+.sc-visual {
+    margin-top: -96px;
+    .inner{
+        width: 100%;
+        background: #f6f6f6;
+        overflow: hidden;
+        height: calc(100vh + 96px);
+        padding-top: 96px;
+        margin: 0 auto;
+        max-height: 1020px;
+        min-height: 550px;
+        @include tablet{}
+        @include mobile{}
+    }
+    .main-img{
+        margin:0 auto;
+        max-width: 752px;
+    }
+}
+
+
+
+
+.sc-hermes-info {
+    width: 100%;
+    margin: 0 39.6px;
+    max-width: 1440px;
+}
+.sc-hermes-info .headline{
+    padding: 110px 44px 270px;
+}
+.sc-hermes-info .headline img{
+    margin: 0 0 22px;
+}
+.sc-hermes-info .headline .title-text{
+    font-size: 80px;
+    font-family: var(--font-kr-b);
+}
+.sc-hermes-info .headline .intro-copy{
+    color: #888888;
+    font-size: 32px;
+    margin: 40px 0 0;
+    width: 690px;
+    font-family: var(--font-kr-b);
+    line-height: 40px;
+}
+
+.sc-new-bands {
+    max-width: 1440px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, auto);
+
+}
+.copy-inside{
+    padding: 0 25px 0 44px;
+    height: auto;
+    font-size: 22px;
+    font-family: var(--font-kr-b);
+    word-break: keep-all;
+    line-height: 30px;
+}
+.copy-inside h2 {
+    display: inline;
+}
+.copy-inside p {
+    display: inline;
+    color: #888888;
+}
+.lucky-horse {
+    padding: 0 44px 0 25px;
+}
+
+.gallery-casaque {
+    padding: 64px 25px 0 44px;
+    position: relative;
+}
+.gallery-casaque .img-container{
+    background: url(https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/design_gallery_01__c05cv441i92e_large.jpg);
+    height: 732px;
+    transition: .7s;
+}
+.gallery-casaque .img-container.on{
+    background: url(https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/design_gallery_02__b7udzp5j258i_large.jpg);
+    height: 732px;
+}
+.gallery-casaque .colornav{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    display: flex;
+}
+.gallery-casaque .colornav li {
+    margin: 1px 5px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50px ;
+    display: flex;
+    justify-content: center;align-items: center;
+    
+}
+.gallery-casaque .colornav li.on {
+    border: 2px solid #0070c9;
+}
+.gallery-casaque .colornav li button{
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+.gallery-casaque .colornav .btn1{
+    background: url(https://www.apple.com/v/apple-watch-hermes/ab/images/swatches/swatch_rouge_bleu_casaque__do95giq9i0sy_large.png) no-repeat center top / 100%;
+    border-radius: 50px;
+
+}
+.gallery-casaque .colornav .btn2{
+    background: url(https://www.apple.com/v/apple-watch-hermes/ab/images/swatches/swatch_rose_noir_casaque__d9sdilj5zc02_large.png) no-repeat center top / 100%;
+    border-radius: 50px;
+}
+.captions-container {
+    margin: 12px 0;
+    position: relative;
+}
+.captions-container p{
+    font-size: 10px;
+    color: #86868b;
+    transition: .7s;
+    position: absolute;
+    display: block;
+}
+.captions-container .caption1{
+    opacity: 0;
+}
+.captions-container .caption2{
+    opacity: 0;
+}
+.captions-container p.current{
+    opacity: 1;
+}
+.gallery-lucky-horse {
+    padding: 64px 44px 0 25px;
+}
+.gallery-lucky-horse .img-container {
+    position: relative;
+    background: #f6f6f6;
+    display: flex;
+    height: 732px;
+    align-items: center;
+
+
+
+}
+.gallery-lucky-horse .img-container .bg{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 460px;
+    height: 500px;
+    
+
+}
+.gallery-lucky-horse .img-container video{
+    @include position-center;
+    width: 351px;
+    height: 432px;
+}
+.gallery-lucky-horse .img-container img {
+    margin: 0 auto;
+    width: 460px;
+    height: 500px;
+
+
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url('../images/artist_watch_hw_mask__eh3eao35ogwi_large.png');
+    mask-image: url('../images/artist_watch_hw_mask__eh3eao35ogwi_large.png');
+}
+.gallery-lucky-horse .captions-container{
+    margin: 12px 0;
+}
+.gallery-lucky-horse .captions-container p{}
+
+.sc-tours-gallery {
+    /* max-width: 1440px; */
+    margin: 194px 0px 194px;
+}
+.sc-tours-gallery .copy-inside{
+    max-width: 720px;
+    padding: 0 44px;
+}
+.sc-tours-gallery h2{}
+.sc-tours-gallery .typography-signiture{}
+
+.sc-tours-gallery .gallery-blocks {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-auto-flow: column;
+}
+.sc-tours-gallery .gallery-blocks .block-content{
+    width: 720px;
+    height: auto;
+}
+.sc-tours-gallery .gallery-blocks .block-content-block1{
+    margin: 72px 0 0;
+    padding: 0 25px 0 44px;
+}
+.sc-tours-gallery .gallery-blocks .block-content-block2{
+    margin: 122.4px 0 0;
+    padding: 0 25px 0 44px;
+}
+.sc-tours-gallery .gallery-blocks .block-content-block3{
+    margin: 194.4px 0 0;
+    padding: 0 44px 0 25px;
+}
+.sc-tours-gallery .gallery-blocks .block-content-block4{
+    margin: -86.4px 0 0;
+    padding: 0 44px 0 25px;
+
+}
+.sc-tours-gallery .figure-container{
+    position: relative;
+}
+.sc-tours-gallery .figure-container-inside{
+}
+.sc-tours-gallery .image-block1{
+    // background: url(https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-classic-single__4bmt0l4lro2e_large.jpg) no-repeat 0 0 / cover;
+    // padding: 0 0 727.225px;
+    padding-bottom: (725/649)*100%;
+}
+.sc-tours-gallery .image-block2{
+    // background: url(https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-single-tour__fm04meyiaqy6_large.jpg) no-repeat 0 0 / cover;
+    // padding: 0 0 471.438px;
+    padding-bottom: (470/649)*100%;
+}
+.sc-tours-gallery .image-block3{
+    // background: url(https://www.apple.com/v/apple-watch-hermes/ab/images/hardware/beauty-attelage-double__f06ghyczaaie_large.jpg) no-repeat 0 0 / cover;
+    // padding: 0 0 425.3px;
+    padding-bottom: (424/649)*100%;
+
+}
+.sc-tours-gallery .image-block4{
+    // background: url(https://www.apple.com/kr/apple-watch-hermes/ab/images/hardware/beauty-casaque-single__f4kwzqjs25ym_large.jpg) no-repeat 0 0 / cover;
+    // padding: 0 0 992.037px;
+    padding-bottom: (729/478)*100%;
+}
+.sc-tours-gallery .copy-caption {
+    font-size: 11px;
+    color: #86868b;
+    margin: 10px 0 0;
+}
+
+.sc-tours-gallery .block-content-block1 .copy-caption {
+    position: absolute;
+    bottom: 55px;right: 0;
+}
+.sc-tours-gallery .block-content-block2 .copy-caption {
+    position: absolute;
+    bottom: 0;right: 0;
+    bottom: 30px; right: 0;
+
+}
+.sc-tours-gallery .block-content-block3 .copy-caption {
+    position: absolute;
+    bottom: 0;right: 0;
+}
+.sc-tours-gallery .block-content-block4 .copy-caption {
+    position: absolute;
+    bottom: 140px;right: 0;
+}
+
+.sc-sport-band {
+    /* margin: 0 39.6px -246px; */
+}
+.sc-sport-band .copy-inside{
+    padding: 0 44px;
+    max-width: 728px;
+}
+.sc-sport-band .copy-inside h2{}
+.sc-sport-band .copy-inside p{}
+.sc-sport-band .img-container{
+    position: relative;
+    margin: 92px 0 0;
+    /* padding: 0 44px; */
+    padding-bottom:(586/1352)*100%;
+    background: #f00;
+}
+.sc-sport-band .img-container img{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sc-lineup {
+    margin: 500px 0 0;
+}
+.sc-lineup .copy-inside{
+    max-width: 740px;
+    padding: 0 44px;
+}
+.sc-lineup .copy-inside h2{}
+.sc-lineup .copy-inside p{}
+.sc-lineup .copy-inside a{
+    display: block;
+    color: #0070c9;
+    font: 24px;
+    margin: 20px 0 9.6px;
+}
+.sc-lineup .copy-inside .icon-chevronright::after{
+    content: '>';
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.sc-lineup .copy-inside a:hover {
+    text-decoration: underline;
+}
+.sc-lineup .img-container{
+    margin: 92px 0 0;
+    padding: 0 44px;
+}
+
+.sc-custom {
+    width: 100%;
+    .text-box{
+        text-align: center;
+        font-family: var(--font-kr-b);
+        h2{
+            font-size: 28px;
+            margin: 0 0 26px;
+        }
+        span{
+            font-size: 48px;
+        }
+        p{
+            margin: 20px 0;
+            font-size: 21px;
+            line-height: 30px;
+        }
+        .custom-btn{
+            display: flex;
+            justify-content: center;align-items: center;
+            position: relative;
+            font-size: 17px;
+            width: 185px;
+            height: 45px;
+             margin: 34px auto 50px;
+            &:after{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                width: 100%;
+                height: 100%;
+                content: '';
+                border: 2px solid transparent;
+                border-radius: 50px;
+                background-image: linear-gradient(#fff, #fff), linear-gradient(90deg,#FDDE5C 0%,#F8AB5E 16.66667%,#F56A62 33.33333%,#A176C8 50%,#759BEB 66.66667%,#65BEB3 83.33333%,#70DB96);;
+                background-origin: border-box;
+                background-clip: content-box, border-box;
+                transition: all .2s linear;
+                box-sizing: content-box;
+            
+            }
+
+            &:hover::after{
+                border-width: 3px;
+                color: #0070c9;
+            }
+        }
+    }
+
+    .img-container{
+        background: url(https://www.apple.com/v/apple-watch-hermes/ab/images/configure/cto/cto-bands__bf5otma24l9e_large.jpg) no-repeat center center / cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &.slide {
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+        img{}
+    }
+
+}
+
+
+.sc-store {
+    margin: 0 39.6px 124px;
+    padding: 192px 0 0;
+}
+.sc-store h2{
+    font-size: 48px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--font-kr-b);
+    line-height: 60px;
+}
+.sc-store .img-container{
+    margin: 92px 0 0;
+    padding: 0 44px;
+}
+.sc-store .img-container img{}
+
+
+
