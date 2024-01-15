@@ -652,6 +652,10 @@ footer {
 @media screen and (max-width:747px) {
   .gf-bottom .bottom-text .gf-footer-legal-links {
     font-size: 10px;
+    width: 330px;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: keep-all;
   }
 }
 @media screen and (max-width:1024px) {
