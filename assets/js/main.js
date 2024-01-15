@@ -62,12 +62,16 @@ $(function(){
         });
     });
 
-
 })
 
 
-
-
+    // 푸터메뉴 슬라이드토글
+    
+    $('.gf-directory-col-sec').click(function(e){
+        $(this).find('.gf-directory-title').toggleClass('on');
+        e.preventDefault();
+        $(this).find('.gf-directory-list').slideToggle();
+    })
 
 
 

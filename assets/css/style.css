@@ -574,6 +574,10 @@ footer {
   margin: 0 20px 15px 0;
 }
 
+.gf-directory .gf-directory-col .gf-directory-list {
+  display: block;
+}
+
 .gf-directory .gf-directory-col-sec ul {
   /* margin-right: 20px; */
 }
@@ -584,6 +588,38 @@ footer {
 
 .gf-directory .gf-directory-col-sec ul li a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width:767px) {
+  .gf-directory {
+    display: block;
+  }
+  .gf-directory .gf-directory-col {
+    display: block;
+    cursor: pointer;
+  }
+  .gf-directory .gf-directory-col-sec {
+    border-bottom: 1px solid #ccc;
+  }
+  .gf-directory .gf-directory-col .gf-directory-col-sec .gf-directory-title {
+    display: flex;
+    margin: 12px 0 12px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .gf-directory .gf-directory-col .gf-directory-col-sec .gf-directory-title::after {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='footer-icon-svg' width='11' height='6' viewBox='0 0 11 6'%3E%3Cpolyline data-footer-icon-shape='' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' fill='none' fill-rule='evenodd' points='10.075 0.675 5.5 5.323 0.925 0.675'%3E%3Canimate data-footer-animate='expand' attributeName='points' values='10.075 0.675 5.5 5.323 0.925 0.675; 10.075 3 5.5 3 0.925 3; 10.075 5.325 5.5 0.676 0.925 5.325' dur='320ms' begin='indefinite' fill='freeze' keyTimes='0; 0.5; 1' calcMode='spline' keySplines='0.12, 0, 0.38, 0; 0.2, 1, 0.68, 1'%3E%3C/animate%3E%3Canimate data-footer-animate='collapse' attributeName='points' values='10.075 5.325 5.5 0.676 0.925 5.325; 10.075 3 5.5 3 0.925 3; 10.075 0.675 5.5 5.323 0.925 0.675' dur='320ms' begin='indefinite' fill='freeze' keyTimes='0; 0.5; 1' calcMode='spline' keySplines='0.2, 0, 0.68, 0; 0.2, 1, 0.68, 1'%3E%3C/animate%3E%3C/polyline%3E%3C/svg%3E");
+    display: block;
+    opacity: 0.5;
+    transition: 0.2s;
+  }
+  .gf-directory .gf-directory-col .gf-directory-col-sec .gf-directory-title.on::after {
+    transform: rotate(180deg);
+  }
+  .gf-directory .gf-directory-col .gf-directory-list {
+    display: none;
+    margin: 15px;
+  }
 }
 
 .gf-bottom {
